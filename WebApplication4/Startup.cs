@@ -25,9 +25,10 @@ namespace WebApplication4
                 app.UseDeveloperExceptionPage();
             }
 
+
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World! TEST ");
             });
         }
     }
